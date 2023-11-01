@@ -17,10 +17,9 @@
       "@utils/*": ["./src/utils/*"],
       "@lib/*": ["./src/utils/lib/*"],
       "@component/*": ["./src/component/*"],
-      "@page/*": ["./src/page/*"]
+      "@routes/*": ["./src/routes/*"],
     },
   },
-
    
   "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
 }

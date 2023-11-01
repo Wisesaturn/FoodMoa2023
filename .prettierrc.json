@@ -13,6 +13,7 @@
     {
       "files": "*.svelte",
       "options": {
+        "parser": "svelte",
         "svelteSortOrder": "scripts-styles-markup",
         "svelteStrictMode": true,
         "svelteBracketNewLine": true,
