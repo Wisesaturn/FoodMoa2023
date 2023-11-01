@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+.title_text {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#title {
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+  transform: rotate(20deg) skew(-20deg);
+  -webkit-transform: rotate(20deg) skew(-20deg);
+  -moz-transform: rotate(20deg) skew(-20deg);
+  -o-transform: rotate(20deg) skew(-20deg);
+  -ms-transform: rotate(20deg) skew(-20deg);
+
+  --text1: theme(colors.purple.300);
+  --text2: theme(colors.purple.400);
+  --text3: theme(colors.purple.700);
+  --text4: theme(colors.purple.900);
+
+  text-shadow:
+    1px 1px 0 var(--text1),
+    2px 2px 0 var(--text1),
+    3px 4px 0 var(--text1),
+    4px 5px 0 var(--text1),
+    5px 7px 0 var(--text1),
+    6px 8px 0 var(--text1),
+    7px 10px 0 var(--text1),
+    8px 11px 0 var(--text1),
+    9px 13px 0 var(--text1),
+    10px 14px 0 var(--text1),
+    11px 16px 0 var(--text1),
+    12px 17px 0 var(--text1),
+    13px 19px 0 var(--text1),
+    14px 20px 0 var(--text1),
+    15px 22px 0 var(--text1),
+    16px 23px 0 var(--text1),
+    17px 25px 0 var(--text1),
+    18px 26px 0 var(--text1),
+    19px 28px 0 var(--text1),
+    20px 29px 0 var(--text1),
+    21px 30px 0 var(--text2),
+    23px 31px 0 var(--text2),
+    24px 32px 0 var(--text2),
+    26px 33px 0 var(--text2),
+    24px 34px 0 var(--text2),
+    29px 35px 0 var(--text2),
+    30px 36px 0 var(--text2),
+    32px 37px 0 var(--text2),
+    33px 38px 0 var(--text2),
+    35px 39px 0 var(--text2),
+    36px 40px 0 var(--text2),
+    38px 41px 0 var(--text2),
+    39px 42px 0 var(--text2),
+    41px 43px 0 var(--text2),
+    42px 44px 0 var(--text2),
+    44px 45px 0 var(--text2),
+    45px 46px 0 var(--text2),
+    47px 47px 0 var(--text2),
+    48px 49px 0 var(--text3),
+    49px 51px 0 var(--text3),
+    50px 53px 0 var(--text3),
+    51px 55px 0 var(--text3),
+    52px 57px 0 var(--text3),
+    53px 59px 0 var(--text3),
+    54px 61px 0 var(--text3),
+    55px 63px 0 var(--text3),
+    56px 65px 0 var(--text3),
+    57px 67px 0 var(--text3),
+    58px 69px 0 var(--text3),
+    59px 71px 0 var(--text3),
+    60px 73px 0 var(--text3),
+    61px 75px 0 var(--text3),
+    62px 77px 0 var(--text3),
+    63px 79px 0 var(--text3),
+    65px 80px 0 var(--text4),
+    68px 81px 0 var(--text4),
+    70px 82px 0 var(--text4),
+    72px 83px 0 var(--text4),
+    74px 84px 0 var(--text4),
+    76px 85px 0 var(--text4),
+    78px 86px 0 var(--text4),
+    80px 87px 0 var(--text4),
+    82px 88px 0 var(--text4),
+    84px 89px 0 var(--text4),
+    86px 90px 0 var(--text4),
+    88px 91px 0 var(--text4),
+    90px 92px 0 var(--text4);
+}

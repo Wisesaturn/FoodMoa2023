@@ -14,5 +14,10 @@
     "source.fixAll.prettier": true,
     "source.fixAll.eslint": true
   },
+  "css.lint.unknownAtRules": "ignore",
+  "files.associations": {
+    "*.scss": "tailwindcss",
+    "*.css": "tailwindcss"
+  },
   "eslint.validate": ["svelte"]
 }

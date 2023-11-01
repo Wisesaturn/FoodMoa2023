@@ -7,11 +7,16 @@ export async function load() {
   });
 
   const getData = async () => {
-    const blogPage = await notion.databases.query({
+    const foodData = await notion.databases.query({
       database_id: process.env.DATABASE_FOOD_KEY,
     });
-    console.log(blogPage);
+    const cafeData = await notion.databases.query({
+      database_id: process.env.DATABASE_CAFE_KEY,
+    });
+    return foodData;
   };
 
-  return {};
+  return {
+    // db: await getData(),
+  };
 }

@@ -11,6 +11,10 @@
 
   --vh: 100vh;
   --gutter: 1rem;
+
+  /* animation */
+  --time-animation-start: 1.5s;
+  /* animation */
 }
 
 body {
@@ -46,4 +50,12 @@ body {
   width: 100vw;
   background-color: inherit;
   height: var(--vh);
+}
+
+.absolute-center {
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }

@@ -1,6 +1,13 @@
 module.exports = {
   root: true,
   extends: ['eslint:recommended', 'plugin:svelte/recommended', 'prettier'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', 'svelte'],
+      },
+    },
+  },
   parserOptions: {
     sourceType: 'module',
     ecmaVersion: 2020,

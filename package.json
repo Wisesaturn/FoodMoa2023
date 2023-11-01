@@ -13,6 +13,7 @@
   },
   "hompage": "https://wisesaturn.github.io/FoodMoa2023",
   "devDependencies": {
+    "@lottiefiles/svelte-lottie-player": "^0.3.0",
     "@notionhq/client": "^2.2.13",
     "@sveltejs/adapter-static": "^2.0.3",
     "@sveltejs/kit": "^1.20.4",
@@ -32,5 +33,8 @@
     "svelte-preprocess": "^5.0.4",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "saos": "^1.3.1"
   }
 }

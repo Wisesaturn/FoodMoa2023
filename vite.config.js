@@ -19,7 +19,7 @@ export default defineConfig({
       '@public': path.resolve(__dirname, './public'),
       '@utils': path.resolve(__dirname, './src/utils'),
       '@lib': path.resolve(__dirname, './src/utils/lib'),
-      '@component': path.resolve(__dirname, './src/component'),
+      '@components': path.resolve(__dirname, './src/components'),
       '@routes': path.resolve(__dirname, './src/routes'),
       '@': path.resolve(__dirname, './src'),
     },

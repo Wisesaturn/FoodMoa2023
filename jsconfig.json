@@ -18,7 +18,7 @@
       "@public/*": ["./public/*"],
       "@utils/*": ["./src/utils/*"],
       "@lib/*": ["./src/utils/lib/*"],
-      "@component/*": ["./src/component/*"],
+      "@components/*": ["src/components/*"],
       "@routes/*": ["./src/routes/*"],
     },
   },
