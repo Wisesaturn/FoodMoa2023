@@ -1,0 +1,49 @@
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --vh: 100vh;
+  --gutter: 1rem;
+}
+
+body {
+  font-family:
+    'Pretendard Variable',
+    Pretendard,
+    -apple-system,
+    BlinkMacSystemFont,
+    system-ui,
+    Roboto,
+    'Helvetica Neue',
+    'Segoe UI',
+    'Apple SD Gothic Neo',
+    'Noto Sans KR',
+    'Malgun Gothic',
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    sans-serif;
+
+  display: flex;
+  line-height: 1.44;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  min-width: 17.5rem;
+  max-width: 50rem;
+}
+
+#app {
+  position: relative;
+  width: 100vw;
+  background-color: inherit;
+  height: var(--vh);
+}
