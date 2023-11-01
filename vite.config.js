@@ -9,14 +9,14 @@ dotenv.config();
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/FoodMoa2023/',
   plugins: [sveltekit()],
   define: {
     'process.env': JSON.stringify(process.env),
   },
   resolve: {
     alias: {
-      '@style': path.resolve(__dirname, './src//style'),
+      '@style': path.resolve(__dirname, './src/style'),
+      '@public': path.resolve(__dirname, './public'),
       '@utils': path.resolve(__dirname, './src/utils'),
       '@lib': path.resolve(__dirname, './src/utils/lib'),
       '@component': path.resolve(__dirname, './src/component'),

@@ -9,17 +9,19 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "ignoreDeprecations": "5.0",
     "checkJs": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@style/*": ["./src/style/*"],
+      "@public/*": ["./public/*"],
       "@utils/*": ["./src/utils/*"],
       "@lib/*": ["./src/utils/lib/*"],
       "@component/*": ["./src/component/*"],
       "@routes/*": ["./src/routes/*"],
     },
   },
-   
+  "extends" : "./.svelte-kit/tsconfig.json",
   "include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.svelte"]
 }

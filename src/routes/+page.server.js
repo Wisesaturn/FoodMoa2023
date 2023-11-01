@@ -8,12 +8,10 @@ export async function load() {
 
   const getData = async () => {
     const blogPage = await notion.databases.query({
-      database_id: process.env.NOTION_DATABASE_KEY,
+      database_id: process.env.DATABASE_FOOD_KEY,
     });
     console.log(blogPage);
   };
 
-  return {
-    db: await getData(),
-  };
+  return {};
 }
