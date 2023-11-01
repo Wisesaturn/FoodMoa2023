@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
-    "deploy": "vite build & gh-pages -d build"
+    "deploy": "vite build & gh-pages -d build -t true"
   },
   "hompage": "https://wisesaturn.github.io/FoodMoa2023",
   "devDependencies": {
