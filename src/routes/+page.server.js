@@ -1,22 +1,9 @@
-import { Client, LogLevel } from '@notionhq/client';
+import getFoodData from '@/utils/lib/getFoodData';
 
 export async function load() {
-  const notion = new Client({
-    auth: process.env.NOTION_KEY,
-    logLevel: LogLevel.DEBUG,
-  });
-
-  const getData = async () => {
-    const foodData = await notion.databases.query({
-      database_id: process.env.DATABASE_FOOD_KEY,
-    });
-    const cafeData = await notion.databases.query({
-      database_id: process.env.DATABASE_CAFE_KEY,
-    });
-    return foodData;
-  };
+  const foodData = await getFoodData();
 
   return {
-    // db: await getData(),
+    foodData,
   };
 }

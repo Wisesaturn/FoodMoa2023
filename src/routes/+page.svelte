@@ -2,16 +2,14 @@
   // @ts-nocheck
   import '@style/app.css';
   import '@style/text.css';
+
   import Saos from 'saos';
+
+  export let data;
 </script>
 
 <style lang="postcss">
   @import url('@style/animation.css');
-  :global(:root) {
-    background: #f3e8ff;
-    background: -webkit-linear-gradient(0deg, #f3e8ff 0%, #f3f4f6 100%);
-    background: linear-gradient(0deg, #f3e8ff 0%, #f3f4f6 100%);
-  }
 </style>
 
 <main id="app">
@@ -24,7 +22,7 @@
       <div id="title" class="md:text-[80px] text-[50px]">FoodMoa</div>
     </Saos>
   </div>
-  <div class="absolute bottom-0 left-1/2 translate-x-[-50%]">
+  <div class="absolute bottom-0 left-1/2 translate-x-[-50%] hover:cursor-pointer">
     {#await import('@components/LottiePlayer/index.svelte') then LottiePlayer}
       <LottiePlayer.default src="{'./animation/arrow.json'}" width="96" height="96" />
     {/await}
