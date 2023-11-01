@@ -1,1 +1,4 @@
-<h1>404 에러</h1>
+<script>
+  import { redirect } from '@sveltejs/kit';
+  throw redirect(302, '/');
+</script>
