@@ -1,22 +1,11 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ['./src/**/*.{svelte,js}'],
-  future: {
-    purgeLayersByDefault: true,
-    removeDeprecatedGapUtilities: true,
-  },
+const plugin = require('tailwindcss/plugin');
+
+export default {
+  content: ['./src/**/*.{js,html,svelte}'],
   theme: {
-    screens: {
-      nw: '100vw',
-      nh: '100vh',
-      full: '1280px',
-    },
-    maxWidth: {
-      full: '1280px',
-    },
     extend: {},
   },
-  variants: {},
   plugins: [
     plugin(({ addBase, theme }) => {
       addBase({

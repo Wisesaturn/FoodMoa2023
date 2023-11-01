@@ -14,8 +14,10 @@
     "paths": {
       "@/*": ["./src/*"],
       "@style/*": ["./src/style/*"],
-      "@lib/*": ["./src/lib/*"],
-      "@component/*": ["./src/component/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@lib/*": ["./src/utils/lib/*"],
+      "@component/*": ["./src/component/*"],
+      "@page/*": ["./src/page/*"]
     },
   },
 
